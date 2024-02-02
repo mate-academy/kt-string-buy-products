@@ -1,15 +1,17 @@
 # Buy products
 
-A client has purchased a number of products that have a certain price
+A client has purchased several products that have a certain price. Return a message with the total cost that the client needs to pay. To do that, implement a `getTotalPriceMessage()` function that:
 
-Return a message with the total amount that the client needs to pay.
-For example, we have the following input data:
+- accepts three arguments: `client`, `price`, and `quantity`;
+- returns a message in the `[client] has to pay $[cost] per [quantity] products` format.
+
+For example:
 
 ```kotlin
 val client = "Mary"
-val products = 3
 val price = 30
-```
+val quantity = 3
 
-As a result of function execution, we should receive a message in the format like "Mary has to pay $90 per 3 products".
-In this task you may use String Templates in your solution
+getTotalPriceMessage(client, price, quantity)
+// returned value is "Mary has to pay $90 per 3 products"
+```
