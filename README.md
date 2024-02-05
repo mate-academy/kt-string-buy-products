@@ -1,4 +1,4 @@
-# Buy products
+# Buy Products
 
 A client has purchased several products that have a certain price. Return a message with the total cost that the client needs to pay. To do that, implement a `getTotalPriceMessage()` function that:
 
@@ -7,7 +7,7 @@ A client has purchased several products that have a certain price. Return a mess
 
 For example:
 
-```kotlin
+```java
 val client = "Mary"
 val price = 30
 val quantity = 3
