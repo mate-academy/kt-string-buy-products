@@ -5,6 +5,6 @@ val price = 30
 val quantity = 3
 
 fun getTotalPriceMessage(client: String, price: Int, quantity: Int): String {
-    val cost = price * quantity;
+    val cost = price * quantity
     return "$client has to pay \$$cost per $quantity products"
 }
