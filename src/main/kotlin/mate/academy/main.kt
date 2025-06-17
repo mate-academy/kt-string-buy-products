@@ -1,8 +1,9 @@
 package mate.academy
-const val CLIENT = "Mary"
-const val PRICE = 30
-const val QUANTITY = 3
 
 fun main() {
-    println(getTotalPriceMessage(CLIENT, PRICE, QUANTITY))
+    var client = readLine() ?: "Unknown client"
+    var price = readLine()?.toIntOrNull() ?: 0
+    var quantity = readLine()?.toIntOrNull() ?: 0
+
+    println(getTotalPriceMessage(client, price, quantity))
 }
