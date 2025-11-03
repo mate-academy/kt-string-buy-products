@@ -6,6 +6,7 @@ fun getTotalPriceMessage(client: String, price: Int, quantity: Int): String {
     return "$client has to pay $$totalCost per $quantity products"
 }
 
+@Suppress("MagicNumber")
 fun main() {
     val client1 = "Mary"
     val price1 = 30
