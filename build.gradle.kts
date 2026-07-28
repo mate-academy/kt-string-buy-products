@@ -28,3 +28,4 @@ detekt {
     allRules = false // activate all available (even unstable) rules.
     baseline = file("$projectDir/config/baseline.xml") // a way of suppressing issues before introducing detekt
 }
+
